@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #00a0a0;
+  --theme-color: #d3a8ff;
 }
 
 * {
@@ -26,7 +26,7 @@ body {
 -------------------- */
 
 h1, h2, h3 {
-  color: #d3a8ff(--theme-color);
+  color: var(--theme-color);
   border-bottom: dashed 0.1em var(--theme-color);
 }
 
@@ -35,7 +35,7 @@ h1, h2, h3 {
 -------------------- */
 
 a {
-  color: #d3a8ff(--theme-color);
+  color: var(--theme-color);
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ ul {
 }
 li:before {
   content: "★";
-  color: #d3a8ff(--theme-color);
+  color: var(--theme-color);
 }
 
 /* --------------------
@@ -58,20 +58,20 @@ li:before {
 table {
   border-spacing: 0;
   border-collapse: collapse;
-  border: solid 1px #f0f0f0;
+  border: solid 1px #d3a8ff;
   min-width: 70%;
 }
 tr {
   background-color: #fff;
 }
 tr:nth-child(2n) {
-  background-color: #f9f9f9;
+  background-color: #d3a8ff;
 }
 th {
   background: var(--theme-color);
   color: #fff;
 }
 th, td {
-  border: solid 1px #f0f0f0;
+  border: solid 1px #d3a8ff;
   padding: 0.5rem;
 }
