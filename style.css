@@ -26,8 +26,8 @@ body {
 -------------------- */
 
 h1, h2, h3 {
-  color: var(--theme-color);
-  border-bottom: dashed 0.1em var(--theme-color);
+  color: #1f00a0(--theme-color);
+  border-bottom: dashed 0.1em #1f00a0(--theme-color);
 }
 
 /* --------------------
@@ -35,7 +35,7 @@ h1, h2, h3 {
 -------------------- */
 
 a {
-  color: var(--theme-color);
+  color: #1f00a0(--theme-color);
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ ul {
 }
 li:before {
   content: "★";
-  color: var(--theme-color);
+  color: #1f00a0(--theme-color);
 }
 
 /* --------------------
